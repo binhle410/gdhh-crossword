@@ -13,9 +13,6 @@
 	<script src="js/script.js"></script>
 
 	<style type="text/css" media="screen">
-		td.entry-1.position-1 > input, td.entry-1.position-1 .active {
-			background-color: lightcoral;
-		}
 	/*
 		Default puzzle styling
 	*/
@@ -97,6 +94,22 @@
 		
 	</style>
 
+	<style>
+		/* Custom Styles */
+		#puzzle-clues li {
+			list-style: none;
+			font-size: 5em;
+			display: none;
+		}
+
+		#puzzle-clues li.clues-active {
+			display: list-item;
+		}
+
+		td.entry-1.position-1 > input, td.entry-1.position-1 .active {
+			background-color: lightcoral;
+		}
+	</style>
 </head>
 
 <body>
